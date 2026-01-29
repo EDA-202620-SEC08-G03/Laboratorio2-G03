@@ -39,7 +39,7 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
 
 1. Gabriela Carpena, g.carpena@uniandes.edu.co, 202521616.
-1. Nombre del estudiante No. 2, Correo electrónico del estudiante No. 2 Uniandes, Funcionalidad propiedad del estudiante No. 2.
+1. Lucas Mejia, l.mejia@uniandes.edu.co, 202520710
 1. Jorge Moreno, j.moreno112@uniandes.edu.co, 202520114.
 
 [Volver al inicio](#laboratorio-2)
