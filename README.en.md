@@ -36,9 +36,9 @@ This repository is part of the data structure and algorithms (#EDA) teaching fra
 
 The students edit this section to add their names, Uniandes emails, and specify which project functionality of the project they will implement.
 
-1. Student-1, Roxana Soto Noriega, <r.soto@uniandes.edu.co>.
-1. Student-2, Jaime Alejandro Arevalo Gaitan, <j.arevalog2@uniandes.edu.co>.
-1. Student-3, Adrián Niño Heredia, <aninoh@uniandes.edu.co>.
+1. Student-1, Adrián Niño Heredia, <aninoh@uniandes.edu.co>.
+1. Student-2, Roxana Soto Noriega, <r.soto@uniandes.edu.co>.
+1. Student-3, Jaime Alejandro Arevalo Gaitan, <j.arevalog2@uniandes.edu.co>.
 
 [Back to top](#sample-conflicts)
 
