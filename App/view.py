@@ -49,15 +49,11 @@ def new_logic():
 
 
 def print_menu():
-    """
-    Imprime el menú de opciones en consola para el usuario
-    """
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    # Agregue la opción 3 para cargar los tags de los libros.
-    # Pueede guiarse de las opciones 1 y 2.
+    # TODO: Mods de Est-1, Est-2 y Est-3 en Lab 2
+    print("3- Cargar Book-Tags!!!...")
     print("0- Salir")
 
 
@@ -150,7 +146,9 @@ def main():
 
         elif int(inputs[0]) == 3:
             # TODO: Mods de Est-3 en el Lab 2
-            pass
+            print("Cargando información de Book-Tags...")
+            booktags = load_books_tags(app)
+            print("Total de Book-Tags cargados: " + str(booktags))
 
         elif int(inputs[0]) == 0:
             working = False
