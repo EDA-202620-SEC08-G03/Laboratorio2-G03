@@ -48,6 +48,7 @@ def new_logic():
     return control
 
 
+<<<<<<< HEAD
 def print_menu():
     print("Opciones:")
     print("1- Cargar Libros")
@@ -55,6 +56,15 @@ def print_menu():
     # TODO: Mods de Est-1, Est-2 y Est-3 en Lab 2
     print("3- Cargar Tags de Libros")
     print("0- Salir")
+=======
+
+def printMenu():
+    print("Opciones:")
+    print("1- Cargar Libros")
+    print("2- Cargar Tags")
+    print("3- Cargar los Tags de Libros")
+    # TODO: Mods de Est-1, Est-2 y Est-3 en Lab 2
+>>>>>>> f8072406f30b12590bf504f6209fabc079c6c1d8
 
 
 def load_books(app):
@@ -136,7 +146,9 @@ def main():
 
         elif int(inputs[0]) == 3:
             # TODO: Mods de Est-3 en el Lab 2
-            pass
+            print("Cargando información de Book-Tags...")
+            booktags = load_books_tags(app)
+            print("Total de Book-Tags cargados: " + str(booktags))
 
         elif int(inputs[0]) == 0:
             working = False
