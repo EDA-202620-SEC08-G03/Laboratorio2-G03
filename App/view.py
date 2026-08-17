@@ -73,13 +73,13 @@ def printMenu():
 def load_books(app):
     """
     Función que carga los libros en la aplicación. 
-    Carga los libros desde el archivo books-small.csv y los almacena en la aplicación
+    Carga los libros desde el archivo books.csv y los almacena en la aplicación
 
     :param app: Aplicación de la lógica
     :type app: logic
     """
     books = logic.load_books(app,
-                             "GoodReads/books-small.csv")
+                             "GoodReads/books.csv")
     return books
 
 
@@ -98,7 +98,7 @@ def load_tags(app):
 
 def load_books_tags(app):
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    book_tags = logic.load_books_tags(app, "GoodReads/book_tags-small.csv")
+    book_tags = logic.load_books_tags(app, "GoodReads/book_tags.csv")
     return book_tags
 
 def first_book(app):
